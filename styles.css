@@ -1,0 +1,124 @@
+body{
+    background-color: hsl(226, 43%, 10%);
+    color: white;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.jeremy{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.jeremy-img-div{
+    background-color: hsl(246, 80%, 60%);
+    padding-bottom: 45px;
+}
+
+.jeremy-img{
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.report-for{
+    color: hsl(236, 100%, 87%);
+    margin-left: 15px;
+}
+
+.profile-list{
+    background-color: hsl(235, 46%, 20%);
+    color: hsl(236, 100%, 87%);
+    padding-bottom: 99px;
+    border-radius: 10px;
+}
+
+.name{
+    font-size: 30px;
+    margin-left: 15px;
+    font-weight: 300;
+}
+
+.work-div{
+    background-color: hsl(15, 29%, 43%);
+    position: relative;
+    z-index: -1;
+    
+}
+
+.card-size{
+    height: 50px;
+    padding: 5px 10px;
+}
+
+.play-div{
+    background-color: hsl(195, 74%, 62%);
+    position: relative;
+    z-index: -1;
+}
+
+.study-div{
+    background-color: hsl(348, 100%, 68%);
+    position: relative;
+    z-index: -1;
+}
+
+.exercise-div{
+    background-color: hsl(145, 58%, 55%);
+    position: relative;
+    z-index: -1;
+    
+}
+
+.social-div{
+    background-color: hsl(264, 64%, 52%);
+    position: relative;
+    z-index: -1;
+}
+
+.self-div{
+    background-color: hsl(43, 84%, 65%);
+    position: relative;
+    z-index: -1;
+}
+
+.last-week{
+    color: hsl(236, 100%, 87%);
+}
+
+.card{
+    
+    background-color: hsl(235, 46%, 20%);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.ellipsis{
+    
+}
+
+.top-div-img{
+    /*position: absolute;
+    z-index: 1;
+    height: 50px;*/
+    float: right;
+}
+
+h4{
+    display: inline-block;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-left: 200px;
+    margin-top: 85px;
+}
+
+.time{
+    font-size: 35px;
+    
+}
