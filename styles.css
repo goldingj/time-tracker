@@ -9,17 +9,24 @@ body{
     grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end: 3;
+    border-radius: 15px;
 }
 
 .jeremy-img-div{
     background-color: hsl(246, 80%, 60%);
-    padding-bottom: 45px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
 }
 
 .jeremy-img{
     height: 100px;
     margin-left: 20px;
     margin-top: 20px;
+    border: 4px solid white;
+    border-radius: 50%;
 }
 
 .report-for{
@@ -30,7 +37,9 @@ body{
 .profile-list{
     background-color: hsl(235, 46%, 20%);
     color: hsl(236, 100%, 87%);
-    padding-bottom: 99px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-left: 20px;
     border-radius: 10px;
 }
 
@@ -41,32 +50,38 @@ body{
 }
 
 .work-div{
-    background-color: hsl(15, 29%, 43%);
+    background-color: hsl(15, 100%, 70%);
     position: relative;
+    top: 20px;
     z-index: -1;
-    
+    /*padding-top: 100px;*/
 }
 
 .card-size{
-    height: 50px;
+    height: 60px;
     padding: 5px 10px;
+    border-radius: 15px;
+
 }
 
 .play-div{
     background-color: hsl(195, 74%, 62%);
     position: relative;
+    top: 20px;
     z-index: -1;
 }
 
 .study-div{
     background-color: hsl(348, 100%, 68%);
     position: relative;
+    top: 20px;
     z-index: -1;
 }
 
 .exercise-div{
     background-color: hsl(145, 58%, 55%);
     position: relative;
+    top: 20px;
     z-index: -1;
     
 }
@@ -74,12 +89,14 @@ body{
 .social-div{
     background-color: hsl(264, 64%, 52%);
     position: relative;
+    top: 20px;
     z-index: -1;
 }
 
 .self-div{
     background-color: hsl(43, 84%, 65%);
     position: relative;
+    top: 20px;
     z-index: -1;
 }
 
@@ -88,13 +105,25 @@ body{
 }
 
 .card{
-    
     background-color: hsl(235, 46%, 20%);
-    padding: 5px 10px;
-    border-radius: 10px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    
 }
 
 .ellipsis{
+    position: relative;
+    left: 90px;
+}
+
+.exercise-ellipsis{
+    position: relative;
+    left: 60px;
+}
+
+.self-ellipsis{
+    position: relative;
+    left: 50px;
     
 }
 
@@ -103,10 +132,14 @@ body{
     z-index: 1;
     height: 50px;*/
     float: right;
+    height: 70px;
+    
+    
 }
 
 h4{
     display: inline-block;
+    font-weight: 500;
 }
 
 .grid{
@@ -115,10 +148,11 @@ h4{
     column-gap: 20px;
     row-gap: 20px;
     margin-left: 200px;
-    margin-top: 85px;
+    margin-top: 40px;
+    
 }
 
 .time{
     font-size: 35px;
-    
+    margin: 0;
 }
