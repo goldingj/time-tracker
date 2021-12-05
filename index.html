@@ -4,6 +4,7 @@
         <title>
 
         </title>
+        
         <link rel = "stylesheet" href = "styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +14,7 @@
         <div class = "grid">
         <div class = "jeremy">
             <div class = "jeremy-img-div"> <img class = "jeremy-img" src = "images/image-jeremy.png" alt = "image of Jeremy"> <p class = "report-for"> Report for</p> <p class = "name">Jeremy <br> Robson</p></div>
-            <div class = "profile-list">Daily  <p>Weekly</p>  <p>Monthly</p></div>
+            <div class = "profile-list"><p id = "daily">Daily</p>  <p id = "weekly">Weekly</p>  <p id = "monthly">Monthly</p></div>
         </div>
 <!--Work-->
 <div>
@@ -23,8 +24,8 @@
         <div class = card> 
                <h4>Work</h4>
             <img class = ellipsis src = "file:///C:/Users/jgold/AppData/Local/Temp/Temp1_time-tracking-dashboard-main.zip/time-tracking-dashboard-main/images/icon-ellipsis.svg">
-            <p class = "time"> 32 hrs</p>
-            <p class = "last-week">Last Week - 36hrs </p>
+            <p class = "time" id = "work-now"> 32 hrs</p>
+            <p class = "last-week" id = "work-last">Last Week - 36hrs </p>
         </div>
 </div>
 <!--Play -->
@@ -35,8 +36,8 @@
         <div class = "card">
             <h4>Play</h4>
             <img class = "ellipsis" src = "file:///C:/Users/jgold/AppData/Local/Temp/Temp1_time-tracking-dashboard-main.zip/time-tracking-dashboard-main/images/icon-ellipsis.svg">
-            <p class = "time">10 hrs</p>
-            <p class = "last-week">Last Week - 8 hrs</p>
+            <p class = "time" id = "play-now">10 hrs</p>
+            <p class = "last-week" id = "play-last">Last Week - 8 hrs</p>
         </div>
         </div>
 <!--Study-->
@@ -47,8 +48,8 @@
         <div class = "card">
             <h4>Study</h4>
             <img class = "ellipsis" src = "file:///C:/Users/jgold/AppData/Local/Temp/Temp1_time-tracking-dashboard-main.zip/time-tracking-dashboard-main/images/icon-ellipsis.svg">
-            <p class = "time">4 hrs</p>
-            <p class = "last-week">Last Week - 7 hrs </p>
+            <p class = "time" id = "study-now">4 hrs</p>
+            <p class = "last-week" id = "study-last">Last Week - 7 hrs </p>
         </div>
         </div>
 <!--Exercise-->
@@ -59,8 +60,8 @@
         <div class = "card">
             <h4>Exercise</h4>
             <img class = "exercise-ellipsis" src = "file:///C:/Users/jgold/AppData/Local/Temp/Temp1_time-tracking-dashboard-main.zip/time-tracking-dashboard-main/images/icon-ellipsis.svg">
-            <p class = "time">4 hrs</p>
-            <p class = "last-week">Last Week - 5 hrs</p>
+            <p class = "time" id = "exercise-now">4 hrs</p>
+            <p class = "last-week" id = "exercise-last">Last Week - 5 hrs</p>
         </div>
         </div>
 <!--Social-->
@@ -71,8 +72,8 @@
         <div class = "card">
             <h4>Social</h4>
             <img class = "ellipsis" src = "file:///C:/Users/jgold/AppData/Local/Temp/Temp1_time-tracking-dashboard-main.zip/time-tracking-dashboard-main/images/icon-ellipsis.svg">
-            <p class = "time">5 hrs</p>
-            <p class = "last-week">Last Week - 10hrs </p>
+            <p class = "time" id = "social-now">5 hrs</p>
+            <p class = "last-week" id = "social-last">Last Week - 10hrs </p>
         </div>
         </div>
 <!--Self Care-->
@@ -83,8 +84,8 @@
         <div class = "card">
             <h4>Self-Care</h4>
             <img class = "self-ellipsis" src = "file:///C:/Users/jgold/AppData/Local/Temp/Temp1_time-tracking-dashboard-main.zip/time-tracking-dashboard-main/images/icon-ellipsis.svg">
-            <p class = "time">2 hrs</p>
-            <p class = "last-week">Last Week - 2 hrs</p>
+            <p class = "time" id = "self-now">2 hrs</p>
+            <p class = "last-week" id = "self-last">Last Week - 2 hrs</p>
         </div>
         </div>
 
@@ -92,4 +93,5 @@
          
         
     </body>
+    <script src = "index.js"></script>
 </html>
