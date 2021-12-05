@@ -38,10 +38,17 @@ body{
     background-color: hsl(235, 46%, 20%);
     color: hsl(236, 100%, 87%);
     padding-bottom: 10px;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 20px;
     border-radius: 10px;
 }
+
+#daily:hover, #weekly:hover, #monthly:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
 
 .name{
     font-size: 30px;
@@ -108,7 +115,11 @@ body{
     background-color: hsl(235, 46%, 20%);
     padding: 5px 15px;
     border-radius: 15px;
-    
+}
+
+.card:hover{
+    cursor:pointer;
+    background-color: hsl(235, 45%, 61%);
 }
 
 .ellipsis{
@@ -155,4 +166,12 @@ h4{
 .time{
     font-size: 35px;
     margin: 0;
+}
+
+@media only screen and (max-width: 900px){
+    .grid{
+        display: grid;
+        grid-template-columns: 400px;
+    }
+
 }
